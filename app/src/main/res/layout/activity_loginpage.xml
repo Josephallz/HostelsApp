@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".loginpage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="SIGN IN TO \nHOSTELS"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="userename"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="30dp" />
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm admin"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/signin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
+        android:text="TAP TO SIGN IN"
+        android:background="@color/gold"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="35dp"
+        android:src="@drawable/callicon"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="      +968 93554410  "
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="SIGN UP TO \n HOSTELS!"
+       android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:hint="userename"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/signup"
+        android:text="register"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
+        android:text="ALRAEDY HAVE AN ACCOUNT"
+        android:background="@color/gold"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:src="@drawable/callicon" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="      +968 93554410  "
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
